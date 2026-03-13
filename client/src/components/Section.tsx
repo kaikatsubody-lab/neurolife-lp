@@ -24,7 +24,7 @@ export default function Section({ children, className = "", bgImage, overlay = f
       } : undefined}
     >
       {overlay && (
-        <div className="absolute inset-0 bg-[#0A0E1A]/80" />
+        <div className="absolute inset-0 bg-[#F7F3EE]/70 backdrop-blur-[1px]" />
       )}
       <div
         className={`

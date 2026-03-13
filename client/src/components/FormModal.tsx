@@ -1,6 +1,6 @@
 /*
- * Design: Neuro-Science Elegance
- * フォームモーダル: ダーク背景にゴールドアクセント
+ * Design: 次世代ウェルネス・エレガンス
+ * フォームモーダル: アイボリー背景にゴールドアクセント
  * 名前・電話番号入力 → バックエンド送信（DB + Google Sheets） → LINE自動リダイレクト
  */
 import { useState } from "react";
@@ -67,17 +67,17 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
       onClick={onClose}
     >
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-[#3A2E22]/50 backdrop-blur-sm" />
 
       {/* Modal */}
       <div
-        className="relative w-full max-w-md bg-gradient-to-b from-[#0F1528] to-[#0A0E1A] border border-[#D4A853]/30 rounded-2xl p-8 shadow-2xl animate-fade-in-up"
+        className="relative w-full max-w-md bg-gradient-to-b from-white to-[#FAF6F0] border border-[#D4A853]/30 rounded-2xl p-8 shadow-2xl shadow-[#D4A853]/10 animate-fade-in-up"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+          className="absolute top-4 right-4 text-[#8B7B6B] hover:text-[#3A2E22] transition-colors"
         >
           <X className="w-6 h-6" />
         </button>
@@ -87,10 +87,10 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
 
         {/* Header */}
         <div className="text-center mb-6 mt-2">
-          <p className="text-[#D4A853] text-sm font-medium tracking-widest mb-2">
+          <p className="text-[#B8860B] text-sm font-medium tracking-widest mb-2">
             無料個別体験 & 相談会
           </p>
-          <h3 className="text-xl sm:text-2xl font-bold text-white font-serif leading-relaxed">
+          <h3 className="text-xl sm:text-2xl font-bold text-[#3A2E22] font-serif leading-relaxed">
             特別特典を受け取って
             <br />
             <span className="gold-gradient-text">個別相談に申し込む</span>
@@ -100,7 +100,7 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label className="block text-sm text-[#D4A853]/80 mb-2 font-medium">
+            <label className="block text-sm text-[#6B5B4B] mb-2 font-medium">
               お名前
             </label>
             <input
@@ -108,12 +108,12 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="山田 花子"
-              className="w-full px-4 py-3 bg-[#0A0E1A] border border-[#D4A853]/20 rounded-lg text-white placeholder-gray-500 focus:border-[#D4A853] focus:ring-1 focus:ring-[#D4A853]/50 transition-all outline-none"
+              className="w-full px-4 py-3 bg-white border border-[#D4A853]/25 rounded-xl text-[#3A2E22] placeholder-[#B8A898] focus:border-[#D4A853] focus:ring-2 focus:ring-[#D4A853]/20 transition-all outline-none"
             />
           </div>
 
           <div>
-            <label className="block text-sm text-[#D4A853]/80 mb-2 font-medium">
+            <label className="block text-sm text-[#6B5B4B] mb-2 font-medium">
               電話番号
             </label>
             <input
@@ -121,18 +121,18 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="090-1234-5678"
-              className="w-full px-4 py-3 bg-[#0A0E1A] border border-[#D4A853]/20 rounded-lg text-white placeholder-gray-500 focus:border-[#D4A853] focus:ring-1 focus:ring-[#D4A853]/50 transition-all outline-none"
+              className="w-full px-4 py-3 bg-white border border-[#D4A853]/25 rounded-xl text-[#3A2E22] placeholder-[#B8A898] focus:border-[#D4A853] focus:ring-2 focus:ring-[#D4A853]/20 transition-all outline-none"
             />
           </div>
 
           {error && (
-            <p className="text-red-400 text-sm text-center">{error}</p>
+            <p className="text-[#C85A20] text-sm text-center">{error}</p>
           )}
 
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full py-4 bg-gradient-to-r from-[#E85D3A] via-[#F07A56] to-[#E85D3A] text-white font-bold text-lg rounded-lg hover:brightness-110 transition-all disabled:opacity-50 animate-pulse-glow"
+            className="w-full py-4 bg-gradient-to-r from-[#D4662A] via-[#E8783E] to-[#D4662A] text-white font-bold text-lg rounded-xl shadow-lg shadow-[#D4662A]/30 hover:brightness-110 hover:shadow-xl hover:shadow-[#D4662A]/40 transition-all disabled:opacity-50 animate-pulse-glow"
           >
             {isSubmitting ? (
               <span className="flex items-center justify-center gap-2">
@@ -147,7 +147,7 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
             )}
           </button>
 
-          <p className="text-xs text-gray-500 text-center leading-relaxed">
+          <p className="text-xs text-[#8B7B6B] text-center leading-relaxed">
             ※ 送信後、LINE登録画面に移動します。
             <br />
             特典はLINE登録後すぐにお届けします。

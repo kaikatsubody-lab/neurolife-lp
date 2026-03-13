@@ -1,6 +1,6 @@
 /*
- * Design: Neuro-Science Elegance
- * 漫画画像: ダーク背景にゴールドボーダーで映える配置
+ * Design: 次世代ウェルネス・エレガンス
+ * 漫画画像: アイボリー背景にゴールドボーダーで映える配置
  */
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
@@ -23,7 +23,7 @@ export default function MangaImage({ src, alt, delay = 0 }: MangaImageProps) {
       `}
       style={{ transitionDelay: `${delay}ms` }}
     >
-      <div className="relative rounded-lg overflow-hidden shadow-2xl shadow-black/50 border border-[#D4A853]/15">
+      <div className="relative rounded-xl overflow-hidden shadow-xl shadow-[#3A2E22]/10 border border-[#D4A853]/15">
         <img
           src={src}
           alt={alt}

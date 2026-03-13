@@ -1,0 +1,42 @@
+Design Review Notes - 2026-03-13
+
+Hero Section:
+- Ivory/warm gold background image is displaying correctly
+- Gold gradient text on "リセット" and "感謝" is working
+- Text is readable against the warm background
+- Typography hierarchy looks good with Shippori Mincho for headings
+
+Verified:
+- Hero section: Beautiful warm gold background, text readable, gold gradient on key words
+- CTA button: Orange gradient with shadow, prominent and clickable
+- Program title card: White semi-transparent with gold border, elegant
+- Manga sections: Images display correctly with warm shadows
+- Wave dividers: Not visible between sections - may need to check CSS
+- Section transitions: Smooth with scroll animations
+
+Additional observations:
+- Section dividers: Subtle wave SVGs visible between sections (thin gold lines)
+- Old Beliefs cards: Clean white cards with warm borders, red X icons
+- Conclusion box: White card with gold text for key message
+- Mechanism manga section: Clean layout with warm background
+- True Value section: Brain-body image displays well, section heading with gold gradient
+- Overall flow: Smooth reading experience with good spacing
+
+Testimonials section: ✅ Clean white cards with warm gold stars, avatar icons, proper spacing
+Profile section: ✅ Elegant card with gold name, credentials, warm background
+Mid CTA buttons: ✅ Orange gradient buttons with proper visibility against warm background
+Happy Future manga: ✅ All 5 manga images display correctly
+Wave dividers: ✅ Subtle gold wave SVGs between sections
+Overall: Light ivory theme successfully applied, warm wellness aesthetic achieved
+
+For You section: ✅ Two-column cards (未経験・主婦 / プロ・開業志望) with warm styling, check icons
+Special Offer section: ✅ Warm CTA background, LINE特典 card, 限定性 badge, large CTA button
+P.S. section: ✅ Emotional closing text, gold highlight box, final CTA button
+Footer: ✅ Clean footer with copyright
+CTA buttons: ✅ Orange gradient with dashed gold border, prominent and clickable
+Overall assessment: Light ivory theme fully applied, all sections render correctly
+
+Need to verify:
+- Text content completeness against pasted_content.txt
+- FormModal click behavior
+- Mobile responsiveness
