@@ -1,0 +1,13 @@
+Photo CDN URLs:
+course-1 (施術風景): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/course-1_68e8a94f.webp
+course-2 (講座グループ): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/course-2_ae9566cb.webp
+course-3 (大人数講座): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/course-3_6d25e292.webp
+course-4 (講座風景2): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/course-4_716129b0.webp
+course-5 (ヨガマット): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/course-5_37e65495.webp
+course-6 (施術風景2): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/course-6_5c0f5ea8.webp
+retreat-sunset (ハワイ夕日): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/retreat-sunset_37f24bf8.jpg
+retreat-beach (ビーチ): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/retreat-beach_95a26805.webp
+retreat-group (ハワイ集合写真): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/retreat-group_831a0ac5.jpg
+retreat-jump (ジャンプ): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/retreat-jump_2ca03f6e.webp
+retreat-1 (HEIC変換1): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/retreat-1_028cd246.jpg
+retreat-2 (HEIC変換2): https://d2xsxph8kpxj0f.cloudfront.net/310519663158061435/BctSMXLWunnVtABy2Hc8Pp/retreat-2_296692b7.jpg

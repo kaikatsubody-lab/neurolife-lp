@@ -1,0 +1,20 @@
+Desktop hero view: looks good - text is readable, gold gradient text works well.
+No TypeScript errors, dev server running fine.
+
+Current responsive classes already in place:
+- text-[13px] sm:text-base pattern throughout
+- leading-[2.4] sm:leading-[2.2] for mobile line height
+- px-5 sm:px-5 or px-6 sm:px-5 padding
+- py-14 sm:py-24 section padding
+
+Key areas to check/improve for mobile:
+1. Hero section - main heading might be too large on very small screens
+2. PhotoGallery grid - 2 cols on mobile, check spacing
+3. FormModal - check on mobile
+4. CTAButton - check sizing on mobile
+5. OldBeliefCard - check text wrapping
+6. TestimonialCard - check text wrapping
+7. "For You" section heading - long text might wrap oddly
+
+Photos are already uploaded to CDN and integrated into PhotoGallery component.
+The PhotoGallery is placed inside the Profile section after the course description.

@@ -1,0 +1,24 @@
+Photo Gallery Mobile Findings:
+
+The photo gallery is visible on mobile at 375px width:
+- Shows a 3x3 grid of small thumbnails (very small at this width)
+- Photos are barely visible - too small to convey the atmosphere
+- The grid layout works but images are tiny
+
+ISSUES:
+1. Photos are too small in the 3-column grid on mobile - should be 2 columns
+2. The "九州から東京、海外まで開催" text needs to be above the gallery
+3. Gallery images need more space on mobile
+
+"FOR YOU" section heading:
+- "最初は「本当に私にできるのかな…」と迷いながらも、一歩を踏み出した人が" 
+- This heading wraps to many lines at 375px - font size needs to be smaller
+
+PROFILE section closing text wraps oddly on mobile.
+
+KEY MOBILE FIXES NEEDED:
+1. Photo gallery: change to 2 columns on mobile (grid-cols-2) instead of 3
+2. Increase photo gallery image sizes on mobile
+3. Reduce "FOR YOU" section heading font size on mobile
+4. Reduce hero section heading font sizes
+5. Tighten vertical spacing throughout

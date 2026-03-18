@@ -1,0 +1,8 @@
+Desktop hero section check:
+- Warm ivory/gold background with bokeh effect - looks great
+- White block card with main copy - text is clearly readable
+- Gold gradient text on "リセット" and "感謝" - visible
+- "それとも――" in italic gold - visible
+- Pre-head text in gold - visible
+- Overall: clean, elegant, professional look
+- Block-style design working well for readability

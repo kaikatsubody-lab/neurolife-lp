@@ -1,0 +1,6 @@
+Desktop view (1280px):
+- Hero section looks good, text is well centered
+- Gold gradient text visible
+- Background image with bokeh effect looks elegant
+- Font sizes appropriate for desktop
+- Need to check mobile view next

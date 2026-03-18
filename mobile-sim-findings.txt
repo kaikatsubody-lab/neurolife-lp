@@ -1,0 +1,9 @@
+Mobile simulation at 375px:
+- Hero text is visible but the main headline text is quite large for mobile
+- "伝達エラーをリセットし、" breaks awkwardly - "リセット" wraps to next line
+- "【次世代のセラピスト】として突き抜けるか。" gets cut off at bottom
+- Pre-head text wraps naturally but could use smaller font
+- Overall the hero section takes too much vertical space on mobile
+- Need to reduce font sizes for mobile breakpoints
+- The CSS body max-width simulation shows the content at 375px width
+- Need to check actual Tailwind responsive classes in the code

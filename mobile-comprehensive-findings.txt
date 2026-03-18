@@ -1,0 +1,25 @@
+Comprehensive Mobile 375px Findings:
+
+MANGA IMAGES: Look good at mobile width - full width, clear and readable.
+
+OVERALL MOBILE ISSUES TO FIX:
+1. Hero h1 main heading too large - wraps mid-phrase at 375px
+   - "伝達エラーをリセットし、" breaks awkwardly
+   - "【次世代のセラピスト】として突き抜けるか。" wraps to 3 lines
+   - Fix: reduce from text-[22px] to text-[18px]
+
+2. Hero section has too much vertical space
+   - Fix: reduce py from py-14 to py-10 on mobile
+
+3. Pre-head text wraps to 3 lines
+   - Fix: slightly smaller font or tighter line breaks
+
+4. Large gap between hero CTA and STORY section
+   - Fix: reduce section padding
+
+5. Need to check photo gallery section on mobile (haven't scrolled there yet)
+
+PLAN:
+- Edit Home.tsx to reduce mobile font sizes and spacing
+- Focus on hero section first, then check other sections
+- Key changes: text sizes, padding, margins

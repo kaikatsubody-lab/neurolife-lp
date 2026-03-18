@@ -1,0 +1,9 @@
+Mobile 375px hero section findings:
+- Pre-head text is readable, proper line breaks
+- White block card with main copy is visible and centered
+- Font sizes look appropriate for mobile (20px heading)
+- Gold gradient text on "リセット" and "感謝" clearly visible
+- "それとも――" in italic gold visible
+- Block card has good padding and rounded corners
+- Text wrapping is natural, no overflow issues
+- Overall: mobile hero looks clean and readable

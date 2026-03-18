@@ -1,0 +1,22 @@
+Mobile Review Notes (375px viewport simulation)
+================================================
+
+Hero Section:
+- Pre-head text wraps to 3 lines at 375px - "想いに応えられず涙したことのあるあなたへ。" wraps awkwardly
+- Main heading "伝達エラーをリセットし、" is very large on mobile, takes up most of viewport
+- The heading font size at 22px seems appropriate but the line-height creates a lot of vertical space
+- "【次世代のセラピスト】として突き抜けるか。" wraps oddly with 【 brackets
+- The method description block below is dense text on mobile
+
+Issues to fix:
+1. Hero section h1 text-[22px] is good but leading-[2] creates too much vertical space on mobile
+2. The "それとも――" italic text is fine
+3. Program title box needs slightly smaller text on mobile
+4. The sub-copy and method description blocks have good mobile sizing at text-[13px]
+5. Photo gallery grid needs verification on mobile
+
+Overall the mobile text sizes (13px body, 15-17px sub-headings, 22px main heading) are reasonable.
+The main issues are:
+- Line height could be slightly reduced for headings on mobile
+- Some sections have excessive vertical padding on mobile
+- The photo gallery grid-cols-2 on mobile should work but needs visual check

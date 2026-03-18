@@ -1,0 +1,20 @@
+Desktop Review Notes
+====================
+
+Photo Gallery Section:
+- Photos are displayed in a 3-column grid on desktop
+- "九州から東京、海外まで開催" badge is visible with gold styling
+- "講座・リトリートの雰囲気をご覧ください" subtitle is present
+- Photos show retreat/course atmosphere - looks good
+- Grid layout with rounded corners and hover effects
+
+Profile Section:
+- Quote "99%ダメだと言われても..." is visible
+- Profile text flows well on desktop
+
+For You Section:
+- Two-column grid for 未経験・主婦 and プロ・開業志望 cards
+- Cards have white background with gold border
+- Checklist items are readable
+
+Overall desktop layout looks good. Need to focus on mobile adjustments now.

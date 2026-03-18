@@ -1,0 +1,21 @@
+Mobile 375px simulation findings:
+
+HERO SECTION:
+1. Pre-head text wraps to 3 lines - "想いに応えられず涙したことのあるあなたへ。" wraps awkwardly
+2. Main heading "伝達エラーをリセットし、" - "リセット" wraps to next line, breaks visual flow
+3. The main heading font size (22px) is still quite large for 375px - text wraps mid-word
+4. "【次世代のセラピスト】として突き抜けるか。" gets cut off at bottom
+5. Overall hero section is very long on mobile due to text wrapping
+
+KEY ISSUES TO FIX:
+- Reduce hero h1 font size on mobile from 22px to 19-20px
+- Reduce sub-heading sizes slightly
+- The "伝達エラーをリセットし、" line needs to fit on one line or break naturally
+- Consider reducing padding/margins between elements on mobile
+- The program title box might be too wide on mobile
+
+APPROACH:
+- Use smaller font sizes on mobile (below sm breakpoint)
+- Tighten spacing between sections
+- Ensure natural line breaks for Japanese text
+- Check all sections for similar issues

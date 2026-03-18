@@ -1,0 +1,9 @@
+Mobile 375px gallery section findings:
+- "九州から東京、海外まで開催" text visible with gold color and location icon
+- "講座・リトリートの雰囲気をご覧ください" subtitle visible
+- Photo collage images showing correctly in single column on mobile
+- First image: 講座 (course) collage - visible, good size, rounded corners
+- Caption "全国各地での講座風景" visible below image
+- Second image (retreat) starting to appear below
+- Images are stacked vertically on mobile - good layout
+- Overall: gallery looks clean on mobile, images are large enough to see details

@@ -1,0 +1,21 @@
+Mobile 375px scroll findings:
+
+HERO SECTION (continued):
+- Program title box looks good at mobile width
+- CTA button fits well within 375px
+- "STORY" section heading and manga images look good
+- There's a large empty gap between the hero CTA and the STORY section
+
+KEY ISSUES IDENTIFIED:
+1. Hero h1 text is too large - "伝達エラーをリセットし、" wraps mid-phrase
+2. "【次世代のセラピスト】として突き抜けるか。" wraps awkwardly
+3. Large empty space between hero and story section (too much padding)
+4. Pre-head text wraps to 3 lines on mobile
+5. Sub-copy text "原因探しも、力任せの強い施術も、難しい専門知識も、" wraps oddly
+
+FIXES NEEDED:
+- Reduce hero h1 from text-[22px] to text-[18px] or text-[19px] on mobile
+- Reduce hero section padding
+- Reduce gap between hero CTA and next section
+- Tighten line breaks for mobile
+- Check photo gallery section on mobile

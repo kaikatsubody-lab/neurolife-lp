@@ -1,0 +1,15 @@
+Mobile (375px) review findings:
+
+1. Hero section: Text sizes look appropriate with text-[19px] for main heading, text-[12px] for body. Leading is good at 1.9-2.2. Padding px-5 works well.
+
+2. Photo Gallery: Currently using grid-cols-2 on mobile which makes photos very small (about 150px each). The first photo spans 2 cols but is still small. Need to improve this for mobile - perhaps use a different layout approach.
+
+3. Profile section: Text is readable at text-[12px] with leading-[2.2]. Good spacing.
+
+4. For You section: Cards stack vertically on mobile (grid sm:grid-cols-2). Text sizes appropriate.
+
+5. Overall: The mobile responsive adjustments are already in place. The main issue is the photo gallery being too cramped on mobile.
+
+Key improvements needed:
+- Photo gallery on mobile: Make photos larger, perhaps use a masonry-like layout or fewer columns
+- The "九州から東京、海外まで開催" badge text could be slightly larger on mobile

@@ -1,0 +1,7 @@
+Mobile 375px hero section check:
+- Pre-head text wraps nicely at 375px
+- Main heading text is appropriately sized for mobile
+- "リセット" and "感謝" gold gradient text visible
+- Line breaks working well
+- Text is readable and well-spaced
+- Overall hero section looks good on mobile

@@ -1,0 +1,23 @@
+Responsive Optimization Notes:
+
+Current State:
+- Desktop viewport: 1280x1100
+- LP is rendering correctly on desktop
+- Hero section has good visual hierarchy
+- All sections visible with wave dividers
+
+Mobile Issues to Fix:
+1. Hero section text sizes need increase for mobile (currently text-xl on mobile, should be larger)
+2. Body text leading/line-height is good at 2.2 but could use more spacing between paragraphs
+3. Padding on mobile (px-5) is adequate but some sections could use more breathing room
+4. CTA buttons need to be full-width on mobile for easier tapping
+5. Form modal inputs need larger touch targets on mobile
+6. Manga images are full-width which is good
+7. Grid layout for "こんな方におすすめ" stacks on mobile (md:grid-cols-2) - good
+8. Font sizes to increase: body text from text-sm to text-[15px] on mobile
+9. Section headings need better mobile sizing
+
+Photo Gallery to Add:
+- 12 CDN URLs available (6 course, 4 retreat, 2 HEIC converted)
+- Place in achievements/profile section near "九州から東京、海外まで開催" text
+- Collage layout: masonry-style grid with varied sizes

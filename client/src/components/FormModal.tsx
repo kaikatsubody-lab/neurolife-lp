@@ -71,7 +71,7 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
 
       {/* Modal */}
       <div
-        className="relative w-full max-w-md bg-gradient-to-b from-white to-[#FAF6F0] border border-[#D4A853]/30 rounded-2xl p-8 shadow-2xl shadow-[#D4A853]/10 animate-fade-in-up"
+        className="relative w-full max-w-md bg-gradient-to-b from-white to-[#FAF6F0] border border-[#D4A853]/30 rounded-2xl p-5 sm:p-8 shadow-2xl shadow-[#D4A853]/10 animate-fade-in-up"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -90,7 +90,7 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
           <p className="text-[#B8860B] text-sm font-medium tracking-widest mb-2">
             無料個別体験 & 相談会
           </p>
-          <h3 className="text-xl sm:text-2xl font-bold text-[#3A2E22] font-serif leading-relaxed">
+          <h3 className="text-lg sm:text-2xl font-bold text-[#3A2E22] font-serif leading-relaxed">
             特別特典を受け取って
             <br />
             <span className="gold-gradient-text">個別相談に申し込む</span>

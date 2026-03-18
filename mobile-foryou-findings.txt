@@ -1,0 +1,8 @@
+Mobile 375px For You section findings:
+- Heading "最初は「本当に私にできるのかな…」と迷いながらも、一歩を踏み出した人が、" visible and readable
+- Gold gradient text "人生を変える手" visible
+- Two cards side by side: "未経験・主婦の方へ" and "プロ・開業志望の方へ"
+- Cards are in 2-column layout on mobile - text is quite small and cramped
+- List items inside cards are readable but tight
+- ISSUE: The 2-column card layout on 375px makes text very small
+- Consider: Making cards stack vertically on very small screens (below 400px)

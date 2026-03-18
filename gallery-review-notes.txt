@@ -1,0 +1,16 @@
+Photo Gallery Section Review (Desktop View):
+- "九州から東京、海外まで開催" text is visible with globe icon
+- Subtitle "講座・リトリートの雰囲気をご覧ください" is displayed
+- Photos are arranged in a masonry-like grid layout
+- All 11 photos (course 1-6, retreat sunset/beach/group/jump, retreat-1, retreat-2) are loading correctly
+- The grid uses 2 cols on mobile, 3 on sm, 4 on md - looks good on desktop
+- Photos have rounded corners and hover effects
+- The section sits between the profile section and the closing PS section
+- Overall layout looks clean and balanced
+
+Mobile Responsiveness Check Needed:
+- Need to test at 375px width for mobile
+- Check hero text sizing
+- Check manga image sizing
+- Check testimonial card padding
+- Check CTA button sizing

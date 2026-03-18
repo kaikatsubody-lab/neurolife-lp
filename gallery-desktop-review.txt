@@ -1,0 +1,9 @@
+Desktop gallery review (1280px viewport):
+- Photo gallery is visible with 4-column grid layout
+- First photo (group photo) spans 2 cols x 2 rows as intended
+- Photos are loading correctly from CDN
+- "九州から東京、海外まで開催" badge is visible above the gallery
+- Grid layout looks balanced on desktop
+- Bottom row has 3 photos (not filling full width) - could look slightly unbalanced
+- Overall the collage effect works well on desktop
+- Need to verify mobile 2-column layout next

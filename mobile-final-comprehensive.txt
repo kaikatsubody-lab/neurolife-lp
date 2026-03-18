@@ -1,0 +1,23 @@
+Mobile 375px comprehensive findings:
+
+Gallery section:
+- Retreat collage photo visible with caption "国内外でのリトリート"
+- Stats badges "全国9都府県で開催" and "海外からも参加" visible
+- Profile quote block visible with proper formatting
+- FOR YOU section heading starting to appear
+
+Overall mobile assessment:
+- Block-style design working well for readability
+- White card blocks break up the dark/gold background nicely
+- Text sizes are appropriate for mobile reading
+- Photos are large enough to see details
+- Captions are readable
+- Good visual rhythm between text blocks and images
+- No horizontal overflow issues detected
+- CTA buttons appear to be full-width on mobile
+
+Remaining items to check:
+- For You section cards
+- Final CTA section
+- P.S. section
+- Footer
