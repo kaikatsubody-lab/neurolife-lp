@@ -9,7 +9,6 @@
  * ====================================================
  */
 import { useState } from "react";
-import { useAuth } from "@/_core/hooks/useAuth";
 import CTAButton from "@/components/CTAButton";
 import FormModal from "@/components/FormModal";
 import GoldDivider from "@/components/GoldDivider";
@@ -161,8 +160,6 @@ function PhotoCollage() {
 }
 
 export default function Home() {
-  let { user, loading, error, isAuthenticated, logout } = useAuth();
-
   const [isFormOpen, setIsFormOpen] = useState(false);
   const openForm = () => setIsFormOpen(true);
   const closeForm = () => setIsFormOpen(false);
