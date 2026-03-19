@@ -1,0 +1,9 @@
+Screenshot analysis (2026-03-19):
+- FV: Authority badge visible at top (脳科学・量子力学 | 東洋・西洋の叡智を統合 | 施術歴27年・のべ5万人以上)
+- Pre-head copy: 「何とかしてあげたい」のに、想いに応えられず涙したことのあるあなたへ。 - visible in dark text
+- Main headline: 伝達ネットワークを正常化し、最小限の力で、最大限の変化を引き出す。 - blue gradient text for "伝達ネットワーク", warm orange for "最小限の力" and "最大限の変化"
+- White card container with blue border visible
+- Background: warm/golden hero image with white overlay gradient
+- Color scheme: White base × Medical Blue/Navy text × Orange accents - correctly applied
+- TypeScript: No errors
+- Dev server: Running
