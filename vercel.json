@@ -5,12 +5,12 @@
   "framework": null,
   "rewrites": [
     {
-      "source": "/api/trpc/:path*",
-      "destination": "/api/trpc/[trpc]"
+      "source": "/api/submit",
+      "destination": "/api/submit"
     },
     {
-      "source": "/api/lead",
-      "destination": "/api/lead"
+      "source": "/api/trpc/:path*",
+      "destination": "/api/trpc/[trpc]"
     },
     {
       "source": "/((?!api/).*)",

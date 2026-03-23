@@ -83,3 +83,9 @@
 
 - [x] Meta Pixel（ID: 3021374364734743）を<head>内に正しく埋め込み
 - [x] GitHubリポジトリへの反映
+
+## Vercel API 404エラー修正（2026-03-23）
+
+- [x] /api/trpc/lead.submit が404になる問題を修正
+- [x] Vercel Serverless Functionのルーティング修正
+- [ ] GitHubリポジトリへの反映・再デプロイ

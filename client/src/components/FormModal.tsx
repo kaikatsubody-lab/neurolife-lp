@@ -5,7 +5,6 @@
  */
 import { useState } from "react";
 import { X } from "lucide-react";
-import { trpc } from "@/lib/trpc";
 
 interface FormModalProps {
   isOpen: boolean;
@@ -19,8 +18,6 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
   const [phone, setPhone] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState("");
-
-  const submitLead = trpc.lead.submit.useMutation();
 
   if (!isOpen) return null;
 
@@ -40,10 +37,14 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
     setIsSubmitting(true);
 
     try {
-      // Send data to backend (DB + Google Sheets + Notification)
-      await submitLead.mutateAsync({
-        name: name.trim(),
-        phone: phone.trim(),
+      // Send data to /api/submit (Vercel Serverless Function)
+      await fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: name.trim(),
+          phone: phone.trim(),
+        }),
       });
 
       // Track conversion with Meta Pixel
