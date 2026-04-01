@@ -79,13 +79,13 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
 
         {/* Header */}
         <div className="text-center mb-6 mt-2">
-          <p className="text-[#C07840] text-sm font-bold tracking-widest mb-2">
-            無料個別体験 &amp; 相談会
-          </p>
-          <h3 className="text-lg sm:text-2xl font-bold text-[#3D2B1A] font-serif leading-relaxed">
-            特別特典を受け取って
+          <div className="inline-flex items-center gap-1.5 bg-[#FFF3E0] border border-[#E07030]/40 rounded-full px-4 py-1.5 mb-3">
+            <span className="text-[#C85A10] text-[12px] font-bold tracking-wide">＼今だけ無料プレゼント／</span>
+          </div>
+          <h3 className="text-lg sm:text-xl font-bold text-[#3D2B1A] font-serif leading-relaxed">
+            次世代ケアの秘密を公開！
             <br />
-            <span className="orange-gradient-text">個別相談に申し込む</span>
+            <span className="orange-gradient-text">電子書籍を受け取る</span>
           </h3>
         </div>
 
@@ -135,7 +135,7 @@ export default function FormModal({ isOpen, onClose }: FormModalProps) {
                 送信中...
               </span>
             ) : (
-              "今すぐ特典を受取る"
+              "次世代ケアの秘密を公開！電子書籍を受け取る"
             )}
           </button>
 

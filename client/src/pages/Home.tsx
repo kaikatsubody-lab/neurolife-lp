@@ -265,102 +265,68 @@ export default function Home() {
 
           {/* ② ターゲットコール — アイキャッチ */}
           <div className="text-center mb-6 sm:mb-8 animate-fade-in-up">
-            <div className="inline-block bg-[#3D2B1A] text-[#F5C98A] text-[11px] sm:text-xs font-bold tracking-[0.15em] px-5 py-2 rounded-full mb-4">
-              こんな方へ
-            </div>
-            <p className="text-[#5A3A1A] text-[15px] sm:text-lg md:text-xl font-bold leading-[2] tracking-wide">
+            <p
+              className="text-[#3D2B1A] font-medium leading-[1.55] tracking-[-0.5px]"
+              style={{ fontSize: "clamp(20px, 5.5vw, 28px)" }}
+            >
               「何とかしてあげたい」のに、
               <br />
               想いに応えられず涙したことのある
-              <span className="text-[#C07840]">あなたへ。</span>
+              <span className="text-[#C85A10] font-bold">あなたへ。</span>
             </p>
           </div>
 
           {/* ③ メインコピー */}
           <div className="text-center mb-6 sm:mb-8 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl border border-[#D4B896]/40 shadow-lg shadow-[#5A3A1A]/5 px-5 sm:px-8 py-6 sm:py-8">
-              <p className="text-[#7A5A3A] text-[13px] sm:text-base leading-[2] mb-4">
-                このまま、終わりの見えない
-                <br />
-                「その場しのぎのケア」で消耗し続けるか。
-              </p>
-              <p className="text-[#C07840] text-[13px] sm:text-base italic mb-5">それとも――</p>
-              <h1 className="font-serif text-[22px] sm:text-3xl md:text-4xl font-bold leading-[1.85] text-[#3D2B1A]">
-                原因探しも、力任せの強い施術も、
-                <br className="hidden sm:block" />
-                難しい専門知識も、
-                <br />
-                実はもう
-                <span className="relative inline-block mx-1">
-                  <span className="relative z-10 text-[#C85A10]">『過去の常識！？』</span>
-                  <span className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#C85A10]/30 rounded-full" />
-                </span>
-              </h1>
-              <p className="mt-5 font-serif text-[18px] sm:text-xl md:text-2xl font-bold text-[#3D2B1A] leading-[1.9]">
-                <span className="orange-gradient-text">新しい視点</span>で、
-                <br />
-                家族やお客様から
-                <span className="orange-gradient-text">感謝</span>されながら
-                <br />
-                豊かになる
-                <span className="text-[#5A3A1A]">【次世代のセラピスト】</span>
-                <br />
-                として突き抜けるか。
-              </p>
-            </div>
+            <h1
+              className="font-bold text-[#3D2B1A] leading-[1.45] tracking-[-0.5px]"
+              style={{ fontSize: "clamp(26px, 7.5vw, 40px)" }}
+            >
+              原因探しも、力任せの施術も、
+              <br />
+              難しい専門知識も、
+              <br />
+              実はもう
+              <span className="relative inline-block">
+                <span className="text-[#C85A10] underline underline-offset-4 decoration-[#C85A10]/60 decoration-2">『過去の常識！？』</span>
+              </span>
+            </h1>
+            <p
+              className="font-bold text-[#3D2B1A] leading-[1.45] tracking-[-0.5px] mt-4"
+              style={{ fontSize: "clamp(26px, 7.5vw, 40px)" }}
+            >
+              <span className="text-[#C85A10]">新しい視点</span>で、
+              <br />
+              家族やお客様から
+              <span className="text-[#C85A10]">感謝</span>されながら
+              <br />
+              豊かになる
+              <span className="text-[#3D2B1A]">【次世代のセラピスト】</span>
+              <br />
+              として突き抜けるか。
+            </p>
           </div>
 
           {/* ④ サブコピー */}
-          <div className="text-center mb-6 sm:mb-8 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
-            <div className="bg-[#F5EFE6] rounded-xl border border-[#D4B896]/40 px-5 sm:px-7 py-5 sm:py-6">
-              <p className="text-[#5A3A1A] text-[13px] sm:text-base leading-[2.2]">
-                脳・心・体を繋ぐ<strong className="text-[#3D2B1A]">「伝達ネットワーク」</strong>を正常化し、
-                <br />
-                人間が本来持つ<strong className="text-[#3D2B1A]">【自然治癒力】</strong>を最大限に引き出す、次世代のアプローチ。
-              </p>
-              <p className="text-[#5A3A1A] text-[13px] sm:text-base leading-[2.2] mt-3">
-                嘘をつけない「肉体の反応」をモニターにし、
-                <strong className="text-[#C07840]">優しく触れるだけ。</strong>
-                <br />
-                未経験のあなたでも、その日から実践できる
-                <strong className="text-[#3D2B1A]">一生モノのスキル</strong>に。
-              </p>
-            </div>
+          <div className="text-center mb-7 sm:mb-9 animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
+            <p
+              className="text-[#5A3A1A] leading-[1.75] tracking-[-0.3px]"
+              style={{ fontSize: "clamp(15px, 4vw, 20px)" }}
+            >
+              視点を変えて、<span className="text-[#C85A10] font-bold">優しく触れるだけ。</span>
+              <br />
+              力も、専門知識も、経験もいらない。
+              <br />
+              自分が整いながら、周りも元気に。
+              <br />
+              「ありがとう」が連鎖して、豊かになっていく。
+              <br />
+              その日からプロが驚く結果を出す人が続出しています。
+            </p>
           </div>
 
-          {/* ⑤ 講座名 */}
-          <div className="text-center mb-5 sm:mb-7 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            <div className="inline-block bg-white border-2 border-[#C07840]/40 rounded-2xl px-6 sm:px-10 py-4 sm:py-5 shadow-md">
-              <p className="text-[#7A5A3A] text-[11px] sm:text-xs tracking-[0.2em] mb-1 font-bold">PROGRAM</p>
-              <p className="font-serif text-[18px] sm:text-xl md:text-2xl font-bold text-[#3D2B1A] leading-[1.7]">
-                ニューロライフメソッド・マスター講座
-              </p>
-              <p className="text-[#7A5A3A] text-[11px] sm:text-sm leading-[1.9] mt-2">
-                〜家族のケアから、一生のシゴトまで。
-                <br />
-                あなたの「優しい手」を結果で選ばれる
-                <strong className="text-[#C07840]">【一生の宝物】</strong>に変える完全習得プログラム〜
-              </p>
-            </div>
-          </div>
-
-          {/* ⑥ 無料訴求テキスト（帯/バッジ） */}
-          <div className="text-center mb-6 sm:mb-8 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
-            <div className="relative bg-gradient-to-r from-[#C85A10] via-[#E07030] to-[#C85A10] text-white rounded-xl px-5 sm:px-8 py-4 sm:py-5 shadow-lg shadow-[#C85A10]/25 overflow-hidden">
-              {/* Shimmer effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent animate-shimmer" />
-              <p className="relative z-10 text-[13px] sm:text-base font-bold leading-[1.9]">
-                🎁 今なら<span className="text-[#FFE0A0] text-[16px] sm:text-lg font-black">「無料」</span>個別体験＆相談会
-                <br />
-                <span className="text-[12px] sm:text-sm font-medium opacity-90">
-                  オンライン越しに「あなたの体」で証明させてください
-                </span>
-              </p>
-            </div>
-          </div>
-
-          {/* ⑦ CTAボタン */}
-          <div className="text-center mb-8 sm:mb-10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          {/* ⑤ CTAボタン */}
+          <div className="text-center mb-8 sm:mb-10 animate-fade-in-up" style={{ animationDelay: "0.35s" }}>
             <CTAButton onClick={openForm} />
           </div>
 
@@ -376,16 +342,11 @@ export default function Home() {
           <PhotoSlider />
         </div>
 
-        {/* ⑨ 漫画チラ見え — 最下部に漫画1枚目の上部が少し見える */}
-        <div className="relative w-full mt-2">
+        {/* ⑦ 漫画チラ見え — 写真スライダー直下に漫画1枚目の上部が少し見える */}
+        <div className="relative w-full mt-4">
           <div className="max-w-3xl mx-auto px-5">
-            <div className="text-center mb-3">
-              <p className="text-[#7A5A3A] text-[12px] sm:text-sm font-bold">
-                ↓ 続きは漫画でご覧ください
-              </p>
-            </div>
             {/* 漫画の上部だけ見せる（グラデーションでフェードアウト） */}
-            <div className="relative overflow-hidden rounded-t-xl" style={{ maxHeight: "200px" }}>
+            <div className="relative overflow-hidden rounded-t-xl" style={{ maxHeight: "220px" }}>
               <img
                 src={MANGA.m1}
                 alt="漫画1 - 続きを見る"
@@ -393,7 +354,7 @@ export default function Home() {
                 loading="eager"
               />
               {/* フェードアウトグラデーション */}
-              <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#EDE0D0] to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-t from-[#EDE0D0] to-transparent" />
             </div>
           </div>
         </div>
