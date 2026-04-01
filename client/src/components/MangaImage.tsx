@@ -1,7 +1,3 @@
-/*
- * Design: Neuro-Medical × 次世代アプローチ
- * 漫画画像: ホワイト背景にメディカルブルーのアクセントで信頼感
- */
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 interface MangaImageProps {
@@ -23,7 +19,7 @@ export default function MangaImage({ src, alt, delay = 0 }: MangaImageProps) {
       `}
       style={{ transitionDelay: `${delay}ms` }}
     >
-      <div className="relative rounded-xl overflow-hidden shadow-xl shadow-[#1E3A5F]/10 border border-[#3B6FA0]/15">
+      <div className="relative rounded-xl overflow-hidden shadow-xl shadow-[#5A3A1A]/10 border border-[#D4B896]/30">
         <img
           src={src}
           alt={alt}
