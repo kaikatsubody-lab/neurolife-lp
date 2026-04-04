@@ -120,6 +120,40 @@ function HighlightBlock({ children, variant = "blue" }: { children: React.ReactN
   );
 }
 
+/* Photo slider - 自動横スクロール写真スライダー */
+function PhotoSlider() {
+  const slides = [
+    { src: COLLAGE.kouza, label: "全国各地での講座風景" },
+    { src: COLLAGE.retreat, label: "国内外でのリトリート" },
+    { src: COLLAGE.kouza, label: "施術実習・グループワーク" },
+    { src: COLLAGE.retreat, label: "心身を深く解放する特別な時間" },
+    { src: COLLAGE.kouza, label: "未経験からプロまで実践習得" },
+    { src: COLLAGE.retreat, label: "ハワイ・沖縄・各地で開催" },
+  ];
+  return (
+    <div className="w-full overflow-hidden py-4">
+      <div className="flex gap-3 animate-slider" style={{ width: "max-content" }}>
+        {[...slides, ...slides].map((slide, i) => (
+          <div
+            key={i}
+            className="shrink-0 w-[240px] sm:w-[300px] rounded-xl overflow-hidden shadow-md border border-[#3B6FA0]/15"
+          >
+            <img
+              src={slide.src}
+              alt={slide.label}
+              className="w-full h-[160px] sm:h-[200px] object-cover"
+              loading="lazy"
+            />
+            <div className="bg-white px-3 py-2 text-center">
+              <p className="text-[#1E3A5F] text-[11px] sm:text-xs font-bold">{slide.label}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 /* Photo collage - 講座＆リトリートのコラージュ写真 */
 function PhotoCollage() {
   const { ref, isVisible } = useScrollAnimation(0.05);
@@ -313,6 +347,11 @@ export default function HomeLpV1() {
               オンライン越しに「あなたの体」で証明させてください。
             </p>
             <CTAButton onClick={openForm} />
+          </div>
+
+          {/* 写真スライダー — CTAボタン直下 */}
+          <div className="w-full mt-2 -mx-5" style={{ width: "calc(100% + 2.5rem)" }}>
+            <PhotoSlider />
           </div>
 
           {/* Scroll indicator */}
